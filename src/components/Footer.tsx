@@ -12,7 +12,7 @@ const Footer = () => {
 
   const socialLinks = [
     { href: "https://github.com/dhanvantmarathe", icon: Github, label: "GitHub" },
-    { href: "https://linkedin.com/in/dhanvantmarathe", icon: Linkedin, label: "LinkedIn" },
+    { href: "https://www.linkedin.com/in/dhanvant-marathe-12a1b5236/", icon: Linkedin, label: "LinkedIn" },
     { href: "mailto:marathe8459@gmail.com", icon: Mail, label: "Email" },
   ];
 

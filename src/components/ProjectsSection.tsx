@@ -10,13 +10,6 @@ const projects = [
     featured: true,
   },
   {
-    title: "Personal Portfolio Website",
-    description: "A fully responsive and dynamic personal portfolio website showcasing skills, projects, and experience as a full-stack developer.",
-    technologies: ["React.js", "React-Bootstrap", "MongoDB", "Express.js"],
-    type: "Web App",
-    liveUrl: "#",
-  },
-  {
     title: "Online Compiler Clone",
     description: "Full-stack web application that allows users to compile and run Python and Java code online with real-time output display.",
     technologies: ["MERN Stack", "Express.js", "React.js", "Node.js"],
@@ -85,17 +78,6 @@ const ProjectsSection = () => {
                         aria-label="View on GitHub"
                       >
                         <Github className="w-5 h-5 text-muted-foreground hover:text-foreground" />
-                      </a>
-                    )}
-                    {project.liveUrl && (
-                      <a
-                        href={project.liveUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="p-2 rounded-lg hover:bg-secondary transition-colors"
-                        aria-label="View live site"
-                      >
-                        <ExternalLink className="w-5 h-5 text-muted-foreground hover:text-foreground" />
                       </a>
                     )}
                   </div>
